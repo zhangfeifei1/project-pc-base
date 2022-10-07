@@ -1,0 +1,68 @@
+{
+    "topView": {
+        "items": [
+            {
+                "img": "1apple.png",
+                "text": "1asfdsaf"
+            },
+            {
+                "img": "2apple.png",
+                "text": "2asfdsaf"
+            },
+            {
+                "img": "3apple.png",
+                "text": "3asfdsaf"
+            },
+            {
+                "img": "4apple.png",
+                "text": "4asfdsaf"
+            }
+        ],
+        "right": "发斯蒂芬斯蒂芬",
+        "columns": 2,
+        "left": "热门活动"
+    },
+    "topViewSSS": {
+        "items": [
+            {
+                "img": "1apple.png",
+                "text": "1asfdsaf"
+            },
+            {
+                "img": "2apple.png",
+                "text": "2asfdsaf"
+            },
+            {
+                "img": "3apple.png",
+                "text": "3asfdsaf"
+            },
+            {
+                "img": "4apple.png",
+                "text": "asdfafafsa"
+            }
+        ],
+        "right": "发斯蒂芬斯蒂芬",
+        "columns": 1,
+        "left": "热门活动"
+    },
+    "name": "Yourtion",
+    "sub": {
+        "sEmail": "yourtion@gmail.com",
+        "sName": "32332233",
+        "sUrl": "23424",
+        "sub2": {
+            "sName2": "34342",
+            "sAge": 3
+        }
+    },
+    "lists": "Daily New",
+    "lists2": [
+        "Promotion",
+        "Daily New"
+    ],
+    "lists3": "Daily New",
+    "source": "sdfsdfsf",
+    "rate": 3,
+    "color": "#409EFF",
+    "agree": true
+}

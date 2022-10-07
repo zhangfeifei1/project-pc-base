@@ -1,0 +1,76 @@
+{
+  "type": "object",
+  "title": "路由配置",
+  "required": [
+    "node",
+    "type"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "title": "路由ID"
+    },
+    "name": {
+      "type": "string",
+      "title": "路由名称"
+    },
+    "isneedlogin": {
+      "type": "boolean",
+      "title": "是否需要登录",
+      "default": false,
+      "attrs": {
+        "type": "switch"
+      }
+    },
+    "node": {
+      "type": "string",
+      "title": "节点类型",
+      "enum": [
+        "localweb",
+        "remoteweb",
+        "containerlocalweb",
+        "containerremoteweb",
+        "offlinepackage",
+        "native"
+      ],
+      "attrs": {
+        "placeholder": "Select your list subscription",
+        "title": "Please select your list subscription"
+      }
+    },
+    "type": {
+      "type": "string",
+      "title": "跳转类型",
+      "enum": [
+        "pushroot",
+        "pushtab",
+        "presentroot",
+        "presenttab",
+        "custom"
+      ],
+      "attrs": {
+        "placeholder": "Select your list subscription",
+        "title": "Please select your list subscription"
+      }
+    },
+    "target": {
+      "type": "string",
+      "title": "目标地址"
+    },
+    "param": {
+      "type": "object",
+      "title": "跳转参数",
+      "required": [],
+      "properties": {
+        "key": {
+          "type": "string",
+          "title": "title"
+        },
+        "ok": {
+          "type": "number",
+          "title": "title"
+        }
+      }
+    }
+  }
+}

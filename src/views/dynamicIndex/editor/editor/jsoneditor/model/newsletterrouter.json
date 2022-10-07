@@ -1,0 +1,12 @@
+{
+    "id": "GoBaidu",
+    "name": "百度知道",
+    "isneedlogin": true,
+    "node": "localweb",
+    "type": "pushroot",
+    "target": "http://www.baidu.com",
+    "param": {
+        "key": "value",
+        "ok": 4
+    }
+}
